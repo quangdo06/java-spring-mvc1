@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 public class HelloController {
 	@GetMapping("/quang1")
 	public String index() {
-		return "XIN CHAO DO HONG QUANG";
+		return "XIN CHAO DO HONG QUANG hohi";
 	}
 	
 }
